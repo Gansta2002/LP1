@@ -1,0 +1,42 @@
+body{
+    background-image: url("../images/image.jpg");
+    background-size: cover;
+}
+.title2{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.text2{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.title1{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.text1{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+}
+.prog{
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+}
+.images{
+    margin: auto;
+    width: 80%;
+}
+.aut{
+    color: aliceblue;
+    font-size: 20px;
+}

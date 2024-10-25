@@ -1,0 +1,89 @@
+body{
+    background-image: url("../images/image.jpg");
+    background-size: cover;
+}
+.title2{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.text2{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.title1{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.text1{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+}
+.prog{
+    text-align: center;
+    font-size: 45px;
+    color: aliceblue;
+}
+.images{
+    margin: auto;
+    width: 80%;
+}
+.aut{
+    color: aliceblue;
+    font-size: 20px;
+}
+.giper{
+    width: 15%;
+    background-color: rgb(87, 87, 87);
+    border: solid;
+    opacity: 70%;
+    margin: left;
+}
+.block{
+    color: aliceblue;
+    text-align: center;
+}
+.uniks{
+    width: 80%;
+    color: aliceblue;
+    background-color: rgb(24, 24, 24);
+    opacity: 70%;
+    border: solid 2px;
+    margin: auto;
+}
+.nere{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+}
+.dist{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+}
+.nere1{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+}
+.nemo{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+}

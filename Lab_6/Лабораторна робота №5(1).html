@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>лаб_роб_5</title>
+</head>
+<style>
+    body
+    {
+        background-image: url(https://foni.club/uploads/posts/2023-02/1675425597_foni-club-p-fon-zadnii-programmist-1.jpg);
+        background-size: cover;
+    }
+    h1, h4
+    {
+        text-align: center;
+    }
+    button, .res
+    {
+        background-color: rgb(41, 16, 67);
+        color: rgb(184, 103, 110);
+    }
+    button:hover, .res:hover
+    {
+        background-color: rgb(248, 8, 8);
+    }
+    table
+    {
+        border: 3px solid rgb(188, 23, 23);
+    }
+    td,th
+    {
+        border: 2px solid #bc1717;
+    }
+    .do
+    {
+        text-align: center;
+    }
+    a
+    {
+        text-decoration: none;
+        color: rgb(199, 171, 171);
+    }
+    ::placeholder
+    {
+        color:white;
+    }
+</style>
+<body>
+    <h1>Реєстрація</h1>
+
+    <h4>Введіть інформацію:</h4>
+
+    <form action="Лабораторна робота №6(3).html" method="post" target="_blank">
+        <table align="center">
+            <tr>
+             <td width="40%">
+                 <br>Ф.І.О.</h4>
+             </td>
+             <td width="60%">
+                 <div class="FIO">
+                     <br><input placeholder="Фамилія" name="famulia" type="text">
+                     <br><br><input placeholder="Ім'я" name="first_name" type="text" >
+                     <br><br><input placeholder="По-батьковій" name="second_name" type="text">
+                 </div>
+             </td>
+            </tr>
+     
+            <tr>
+             <td width="40%">
+                 <br>Дата, рік народження
+             </td>
+             <td width="60%">
+         <div class="data">
+             <input type="date">
+         </div>
+             </td>
+            </tr>
+         
+            <tr>
+             <td width="40%">
+                 <br>Домашня адреса
+             </td>
+             <td width="60%">  
+             <div class="adress">
+                 <input placeholder="Адреса" name="adress" type="text">
+             </div>
+             </td>
+            </tr>
+         
+            <tr>
+             <td width="40%">
+                 <br>Місто роботи(навчання)
+             </td>
+             <td width="60%">
+             <div class="work">
+                 <input placeholder="Місце роботи" name="work" type="text">
+             </div>
+             </td>
+            </tr>
+     
+         <tr>
+             <td width="40%">
+                 <br>Телефон
+             </td>
+     
+             <td width="60%">   
+             <div class="phone">
+                 <input value="+380" name="phone" type="tel">
+             </div>
+             </td>
+         </tr>
+     
+         <tr>
+             <td width="40%">
+                 <br>E-mail
+             </td>
+     
+             <td width="60%">   
+             <div class="mail">
+                 <input placeholder="Пошта" name="mail" type="mail">
+             </div>
+             </td>
+         </tr>
+         
+         <tr>
+             <td width="40%">
+                 <br>Логін
+             </td>
+         
+             <td width="60%"> 
+             <div class="phone">
+                 <input placeholder="Логін" name="user_name" type="text">
+             </div>
+             </td>
+         </tr>
+     
+         <tr>
+             <td width="40%">
+                 <br>Пароль
+             </td>
+     
+             <td width="60%">   
+             <div class="password">
+                 <input placeholder="Пароль" name="user_password" type="password">
+             </div>
+             </td>
+         </tr>
+     
+         <tr>
+             <td width="40%">
+                 <br>Стать
+             </td>
+     
+             <td width="60%">   
+             <div class="gender">
+                 <input name="gender" type="radio" value="male"> Чоловіча
+                 <input name="gender" type="radio" value="female"> Жіноча
+                 <input name="gender" type="radio" value="banana"> Бонанчик
+             </div>
+             </td>
+         </tr>
+         
+         <tr>
+             <td class="do" colspan="2">
+                 <div class="do_1">
+                     <input class="res" type="submit" value="Реєструвати">
+                     <input class="res" type="reset" value="Очистити">
+                     <button>
+                         <a href="Лабораторна робота №6(3).html">На головну</a>
+                     </button>
+                 </div>
+             </td>
+         </tr>
+         </table>
+    </form>
+
+</body>
+</html>
